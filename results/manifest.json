@@ -1,0 +1,35 @@
+{
+  "data_source": "Built-in synthetic template-generated requests",
+  "seed": 42,
+  "max_len": 256,
+  "epochs": 8,
+  "training_seconds": 29.51777214599997,
+  "threshold": 0.9299999999999999,
+  "feature_names": [
+    "length",
+    "percent_ratio",
+    "quote_ratio",
+    "angle_ratio",
+    "digit_ratio",
+    "space_ratio",
+    "punct_ratio",
+    "entropy"
+  ],
+  "torch": "2.14.1+cpu",
+  "numpy": "2.3.5",
+  "dataset_sha256": "72436fde88e80a23dc9feb449bdc3ddf4ba1dbcc0b804fe4ed9165b6794a335e",
+  "split_counts": {
+    "train": 1467,
+    "test": 450,
+    "val": 360,
+    "challenge": 300
+  },
+  "limits": [
+    "Synthetic default data",
+    "No production validation",
+    "Not a scanner",
+    "No zero-day guarantee",
+    "Uncalibrated scores",
+    "Truncation risk"
+  ]
+}

@@ -1,0 +1,751 @@
+text,label,split,group,predicted,attack_score,alert,classification_error,false_positive
+GET /query?value=search%20for%20book%20model%2067255 HTTP/1.1,benign,test,test:benign:0,benign,0.010201216,False,False,False
+GET /query?value=support ticket 60235 for coffee HTTP/1.1,benign,test,test:benign:1,benign,0.003783524,False,False,False
+POST /form?input=how to prevent SQL injection 51643 HTTP/1.1,benign,test,test:benign:2,benign,0.14395958,False,False,False
+POST /item?value=javascript%20alert%20documentation%2079418 HTTP/1.1,benign,test,test:benign:3,benign,0.11199093,False,False,False
+POST /search?q=search%20for%20music%20model%2077192 HTTP/1.1,benign,test,test:benign:0,benign,0.050284386,False,False,False
+GET /search?input=support%20ticket%203879%20for%20coffee HTTP/1.1,benign,test,test:benign:1,benign,0.026387513,False,False,False
+GET /item?q=how%20to%20prevent%20SQL%20injection%2089050 HTTP/1.1,benign,test,test:benign:2,sqli,0.72940797,False,True,False
+POST /search?q=javascript alert documentation 22816 HTTP/1.1,benign,test,test:benign:3,benign,0.032984376,False,False,False
+GET /form?value=search%20for%20phone%20model%2080213 HTTP/1.1,benign,test,test:benign:0,benign,0.25814056,False,False,False
+GET /query?q=support ticket 79509 for coffee HTTP/1.1,benign,test,test:benign:1,benign,0.006288767,False,False,False
+GET /item?value=how to prevent SQL injection 91593 HTTP/1.1,benign,test,test:benign:2,benign,0.025354087,False,False,False
+GET /item?id=javascript alert documentation 64379 HTTP/1.1,benign,test,test:benign:3,benign,0.040760577,False,False,False
+GET /search?q=search for music model 56903 HTTP/1.1,benign,test,test:benign:0,benign,0.027823329,False,False,False
+GET /item?q=support%20ticket%2082469%20for%20coffee HTTP/1.1,benign,test,test:benign:1,benign,0.009030521,False,False,False
+GET /query?id=how to prevent SQL injection 47138 HTTP/1.1,benign,test,test:benign:2,benign,0.4088437,False,False,False
+POST /item?id=javascript alert documentation 89448 HTTP/1.1,benign,test,test:benign:3,benign,0.39876378,False,False,False
+POST /item?q=search for alpha model 74769 HTTP/1.1,benign,test,test:benign:0,benign,0.0026863217,False,False,False
+GET /search?id=support ticket 57534 for alpha HTTP/1.1,benign,test,test:benign:1,benign,0.1456607,False,False,False
+POST /item?q=how%20to%20prevent%20SQL%20injection%2067806 HTTP/1.1,benign,test,test:benign:2,sqli,0.8590265,False,True,False
+GET /query?value=javascript%20alert%20documentation%2078848 HTTP/1.1,benign,test,test:benign:3,benign,0.19325793,False,False,False
+GET /query?q=search for coffee model 51183 HTTP/1.1,benign,test,test:benign:0,benign,0.0029617548,False,False,False
+POST /form?q=support%20ticket%2070057%20for%20music HTTP/1.1,benign,test,test:benign:1,benign,0.11826241,False,False,False
+POST /query?q=how to prevent SQL injection 71567 HTTP/1.1,benign,test,test:benign:2,benign,0.08887702,False,False,False
+GET /query?q=javascript alert documentation 4240 HTTP/1.1,benign,test,test:benign:3,benign,0.12112266,False,False,False
+POST /search?id=search for blue model 18266 HTTP/1.1,benign,test,test:benign:0,benign,0.0017387271,False,False,False
+GET /query?q=support ticket 64701 for book HTTP/1.1,benign,test,test:benign:1,sqli,0.6122819,False,True,False
+GET /form?id=how to prevent SQL injection 54567 HTTP/1.1,benign,test,test:benign:2,benign,0.34383702,False,False,False
+GET /form?id=javascript%20alert%20documentation%2035466 HTTP/1.1,benign,test,test:benign:3,benign,0.23616469,False,False,False
+POST /item?q=search for phone model 85250 HTTP/1.1,benign,test,test:benign:0,benign,0.0015075207,False,False,False
+GET /form?q=support ticket 7265 for book HTTP/1.1,benign,test,test:benign:1,benign,0.023050427,False,False,False
+POST /item?input=how%20to%20prevent%20SQL%20injection%2072426 HTTP/1.1,benign,test,test:benign:2,benign,0.01980853,False,False,False
+GET /form?q=javascript alert documentation 91935 HTTP/1.1,benign,test,test:benign:3,xss,0.6846651,False,True,False
+POST /form?q=search for phone model 80704 HTTP/1.1,benign,test,test:benign:0,benign,0.0012823343,False,False,False
+GET /item?input=support%20ticket%2031227%20for%20blue HTTP/1.1,benign,test,test:benign:1,benign,0.25199568,False,False,False
+GET /item?q=how to prevent SQL injection 97983 HTTP/1.1,benign,test,test:benign:2,sqli,0.6960583,False,True,False
+GET /query?q=javascript%20alert%20documentation%2010051 HTTP/1.1,benign,test,test:benign:3,benign,0.12109387,False,False,False
+GET /query?id=search for phone model 41183 HTTP/1.1,benign,test,test:benign:0,benign,0.013736248,False,False,False
+GET /search?q=support ticket 79455 for alpha HTTP/1.1,benign,test,test:benign:1,sqli,0.8569443,False,True,False
+POST /item?input=how%20to%20prevent%20SQL%20injection%2032804 HTTP/1.1,benign,test,test:benign:2,benign,0.0752092,False,False,False
+POST /item?value=javascript alert documentation 93481 HTTP/1.1,benign,test,test:benign:3,benign,0.09703928,False,False,False
+GET /search?value=search for coffee model 41803 HTTP/1.1,benign,test,test:benign:0,benign,0.0025870204,False,False,False
+POST /query?q=support ticket 53858 for coffee HTTP/1.1,benign,test,test:benign:1,benign,0.029390752,False,False,False
+GET /query?id=how to prevent SQL injection 26690 HTTP/1.1,benign,test,test:benign:2,benign,0.13457054,False,False,False
+GET /search?id=javascript alert documentation 16098 HTTP/1.1,benign,test,test:benign:3,benign,0.036230862,False,False,False
+POST /search?q=search for alpha model 91543 HTTP/1.1,benign,test,test:benign:0,benign,0.00577271,False,False,False
+POST /query?q=support%20ticket%2065402%20for%20book HTTP/1.1,benign,test,test:benign:1,sqli,0.9140856,False,True,False
+POST /form?q=how to prevent SQL injection 7837 HTTP/1.1,benign,test,test:benign:2,benign,0.14932936,False,False,False
+GET /item?input=javascript alert documentation 50156 HTTP/1.1,benign,test,test:benign:3,benign,0.055998266,False,False,False
+GET /query?q=search for coffee model 24183 HTTP/1.1,benign,test,test:benign:0,benign,0.0045748353,False,False,False
+POST /query?id=support ticket 70991 for phone HTTP/1.1,benign,test,test:benign:1,benign,0.024294913,False,False,False
+POST /form?q=how%20to%20prevent%20SQL%20injection%2099264 HTTP/1.1,benign,test,test:benign:2,sqli,0.94631755,True,True,True
+POST /form?input=javascript alert documentation 14324 HTTP/1.1,benign,test,test:benign:3,benign,0.39935654,False,False,False
+POST /item?input=search for coffee model 75062 HTTP/1.1,benign,test,test:benign:0,benign,0.0008581877,False,False,False
+GET /item?q=support ticket 61264 for coffee HTTP/1.1,benign,test,test:benign:1,benign,0.0016739964,False,False,False
+GET /item?value=how to prevent SQL injection 36801 HTTP/1.1,benign,test,test:benign:2,benign,0.009245336,False,False,False
+POST /query?value=javascript alert documentation 44251 HTTP/1.1,benign,test,test:benign:3,benign,0.22265238,False,False,False
+GET /search?value=search for phone model 86416 HTTP/1.1,benign,test,test:benign:0,benign,0.005550623,False,False,False
+POST /item?input=support%20ticket%2074516%20for%20coffee HTTP/1.1,benign,test,test:benign:1,benign,0.018398345,False,False,False
+POST /search?value=how to prevent SQL injection 60660 HTTP/1.1,benign,test,test:benign:2,benign,0.0019112229,False,False,False
+GET /form?q=javascript alert documentation 62951 HTTP/1.1,benign,test,test:benign:3,xss,0.5250791,False,True,False
+POST /search?input=search%20for%20book%20model%2075975 HTTP/1.1,benign,test,test:benign:0,benign,0.11036402,False,False,False
+POST /query?input=support ticket 23577 for phone HTTP/1.1,benign,test,test:benign:1,benign,0.024465203,False,False,False
+GET /search?id=how to prevent SQL injection 16685 HTTP/1.1,benign,test,test:benign:2,benign,0.09304935,False,False,False
+POST /query?q=javascript%20alert%20documentation%2015010 HTTP/1.1,benign,test,test:benign:3,benign,0.34400904,False,False,False
+POST /query?q=search%20for%20coffee%20model%2072546 HTTP/1.1,benign,test,test:benign:0,benign,0.0018619299,False,False,False
+GET /item?value=support ticket 88927 for phone HTTP/1.1,benign,test,test:benign:1,benign,0.012956321,False,False,False
+GET /search?id=how to prevent SQL injection 14318 HTTP/1.1,benign,test,test:benign:2,benign,0.40979135,False,False,False
+POST /search?input=javascript alert documentation 26754 HTTP/1.1,benign,test,test:benign:3,benign,0.4220835,False,False,False
+POST /query?input=search%20for%20blue%20model%2037114 HTTP/1.1,benign,test,test:benign:0,benign,0.023454964,False,False,False
+POST /search?id=support ticket 85466 for phone HTTP/1.1,benign,test,test:benign:1,benign,0.05034095,False,False,False
+GET /search?q=how%20to%20prevent%20SQL%20injection%2048284 HTTP/1.1,benign,test,test:benign:2,sqli,0.70069146,False,True,False
+POST /item?input=javascript alert documentation 79837 HTTP/1.1,benign,test,test:benign:3,benign,0.110277236,False,False,False
+GET /form?q=search for book model 76383 HTTP/1.1,benign,test,test:benign:0,benign,0.10902327,False,False,False
+POST /search?q=support ticket 10143 for blue HTTP/1.1,benign,test,test:benign:1,benign,0.34432334,False,False,False
+POST /query?value=how to prevent SQL injection 79584 HTTP/1.1,benign,test,test:benign:2,benign,0.01270318,False,False,False
+GET /query?id=javascript%20alert%20documentation%2025572 HTTP/1.1,benign,test,test:benign:3,benign,0.2948566,False,False,False
+GET /item?input=search for blue model 47453 HTTP/1.1,benign,test,test:benign:0,benign,0.0110221505,False,False,False
+POST /search?value=support ticket 96059 for alpha HTTP/1.1,benign,test,test:benign:1,benign,0.031439424,False,False,False
+POST /form?id=how to prevent SQL injection 85643 HTTP/1.1,benign,test,test:benign:2,benign,0.20599157,False,False,False
+GET /form?id=javascript alert documentation 74634 HTTP/1.1,benign,test,test:benign:3,benign,0.14142734,False,False,False
+POST /query?q=search for phone model 79380 HTTP/1.1,benign,test,test:benign:0,benign,0.035475194,False,False,False
+GET /form?id=support ticket 10693 for alpha HTTP/1.1,benign,test,test:benign:1,benign,0.061656594,False,False,False
+GET /form?value=how%20to%20prevent%20SQL%20injection%2023591 HTTP/1.1,benign,test,test:benign:2,benign,0.120877564,False,False,False
+GET /item?q=javascript alert documentation 72699 HTTP/1.1,benign,test,test:benign:3,benign,0.49579883,False,False,False
+GET /item?input=search for book model 56557 HTTP/1.1,benign,test,test:benign:0,benign,0.06823188,False,False,False
+GET /query?q=support%20ticket%2055369%20for%20phone HTTP/1.1,benign,test,test:benign:1,benign,0.031036377,False,False,False
+GET /search?q=how to prevent SQL injection 44156 HTTP/1.1,benign,test,test:benign:2,benign,0.34376723,False,False,False
+POST /form?input=javascript alert documentation 96839 HTTP/1.1,benign,test,test:benign:3,benign,0.248752,False,False,False
+GET /search?id=search for alpha model 37927 HTTP/1.1,benign,test,test:benign:0,benign,0.007179916,False,False,False
+POST /form?value=support ticket 1030 for music HTTP/1.1,benign,test,test:benign:1,benign,0.09649825,False,False,False
+POST /search?id=how to prevent SQL injection 57496 HTTP/1.1,benign,test,test:benign:2,benign,0.11420584,False,False,False
+POST /query?value=javascript%20alert%20documentation%2038984 HTTP/1.1,benign,test,test:benign:3,benign,0.35861862,False,False,False
+GET /search?id=search for phone model 50350 HTTP/1.1,benign,test,test:benign:0,benign,0.1823712,False,False,False
+POST /search?value=support%20ticket%2056441%20for%20music HTTP/1.1,benign,test,test:benign:1,benign,0.36402863,False,False,False
+POST /form?input=how%20to%20prevent%20SQL%20injection%2037338 HTTP/1.1,benign,test,test:benign:2,benign,0.10241151,False,False,False
+POST /search?id=javascript%20alert%20documentation%2029322 HTTP/1.1,benign,test,test:benign:3,benign,0.18497026,False,False,False
+GET /item?q=search%20for%20phone%20model%2087360 HTTP/1.1,benign,test,test:benign:0,benign,0.0063963532,False,False,False
+GET /search?input=support ticket 78442 for book HTTP/1.1,benign,test,test:benign:1,xss,0.8443852,False,True,False
+POST /form?id=how%20to%20prevent%20SQL%20injection%203388 HTTP/1.1,benign,test,test:benign:2,xss,0.87350106,False,True,False
+GET /form?input=javascript alert documentation 59496 HTTP/1.1,benign,test,test:benign:3,benign,0.22388631,False,False,False
+GET /query?q=search%20for%20phone%20model%2064661 HTTP/1.1,benign,test,test:benign:0,benign,0.004882574,False,False,False
+GET /search?value=support ticket 46372 for book HTTP/1.1,benign,test,test:benign:1,xss,0.67198735,False,True,False
+POST /search?value=how%20to%20prevent%20SQL%20injection%2020552 HTTP/1.1,benign,test,test:benign:2,benign,0.0053207874,False,False,False
+POST /item?q=javascript%20alert%20documentation%205037 HTTP/1.1,benign,test,test:benign:3,benign,0.17673439,False,False,False
+GET /form?id=search%20for%20coffee%20model%2083174 HTTP/1.1,benign,test,test:benign:0,benign,0.045246005,False,False,False
+GET /form?id=support%20ticket%2088267%20for%20blue HTTP/1.1,benign,test,test:benign:1,benign,0.030222416,False,False,False
+GET /search?id=how%20to%20prevent%20SQL%20injection%2096159 HTTP/1.1,benign,test,test:benign:2,benign,0.4394207,False,False,False
+GET /item?q=javascript%20alert%20documentation%20429 HTTP/1.1,benign,test,test:benign:3,benign,0.04734385,False,False,False
+POST /item?value=search%20for%20coffee%20model%2054818 HTTP/1.1,benign,test,test:benign:0,benign,0.001967132,False,False,False
+GET /query?id=support ticket 63479 for music HTTP/1.1,benign,test,test:benign:1,sqli,0.82892907,False,True,False
+POST /query?input=how to prevent SQL injection 38298 HTTP/1.1,benign,test,test:benign:2,benign,0.022998393,False,False,False
+POST /form?input=javascript%20alert%20documentation%2038730 HTTP/1.1,benign,test,test:benign:3,xss,0.54901046,False,True,False
+GET /item?input=search for blue model 42660 HTTP/1.1,benign,test,test:benign:0,benign,0.0024299026,False,False,False
+POST /item?input=support%20ticket%2041809%20for%20coffee HTTP/1.1,benign,test,test:benign:1,benign,0.010065258,False,False,False
+GET /search?value=how to prevent SQL injection 64127 HTTP/1.1,benign,test,test:benign:2,benign,0.016423404,False,False,False
+POST /search?value=javascript%20alert%20documentation%2035127 HTTP/1.1,benign,test,test:benign:3,benign,0.3680979,False,False,False
+POST /form?input=search%20for%20coffee%20model%2034299 HTTP/1.1,benign,test,test:benign:0,benign,0.002873838,False,False,False
+POST /form?id=support ticket 52265 for phone HTTP/1.1,benign,test,test:benign:1,benign,0.1823309,False,False,False
+POST /form?input=how to prevent SQL injection 44553 HTTP/1.1,benign,test,test:benign:2,benign,0.22019506,False,False,False
+GET /search?value=javascript alert documentation 29017 HTTP/1.1,benign,test,test:benign:3,benign,0.14504904,False,False,False
+GET /form?q=search for music model 16946 HTTP/1.1,benign,test,test:benign:0,benign,0.024842978,False,False,False
+GET /search?id=support ticket 92380 for phone HTTP/1.1,benign,test,test:benign:1,benign,0.037977993,False,False,False
+GET /form?id=how%20to%20prevent%20SQL%20injection%2047470 HTTP/1.1,benign,test,test:benign:2,sqli,0.8729615,False,True,False
+POST /form?id=javascript alert documentation 38045 HTTP/1.1,benign,test,test:benign:3,xss,0.5227662,False,True,False
+GET /search?q=search%20for%20coffee%20model%2072486 HTTP/1.1,benign,test,test:benign:0,benign,0.002997458,False,False,False
+POST /form?q=support%20ticket%2098985%20for%20music HTTP/1.1,benign,test,test:benign:1,sqli,0.8186182,False,True,False
+GET /item?q=how%20to%20prevent%20SQL%20injection%2020581 HTTP/1.1,benign,test,test:benign:2,sqli,0.56690735,False,True,False
+POST /form?id=javascript%20alert%20documentation%2035721 HTTP/1.1,benign,test,test:benign:3,xss,0.5068263,False,True,False
+GET /search?input=search for phone model 97072 HTTP/1.1,benign,test,test:benign:0,benign,0.00534606,False,False,False
+GET /search?input=support ticket 2651 for book HTTP/1.1,benign,test,test:benign:1,benign,0.03540337,False,False,False
+POST /form?q=how to prevent SQL injection 25475 HTTP/1.1,benign,test,test:benign:2,sqli,0.7095699,False,True,False
+GET /query?input=javascript alert documentation 39613 HTTP/1.1,benign,test,test:benign:3,benign,0.15473998,False,False,False
+GET /form?value=search for phone model 49369 HTTP/1.1,benign,test,test:benign:0,benign,0.012062967,False,False,False
+GET /form?q=support ticket 63363 for phone HTTP/1.1,benign,test,test:benign:1,benign,0.080257475,False,False,False
+POST /search?input=how to prevent SQL injection 65157 HTTP/1.1,benign,test,test:benign:2,benign,0.004390657,False,False,False
+POST /item?input=javascript alert documentation 29378 HTTP/1.1,benign,test,test:benign:3,benign,0.20238483,False,False,False
+POST /query?id=search for alpha model 48483 HTTP/1.1,benign,test,test:benign:0,benign,0.043836057,False,False,False
+GET /item?input=support%20ticket%2082574%20for%20book HTTP/1.1,benign,test,test:benign:1,sqli,0.86357474,False,True,False
+POST /form?id=how%20to%20prevent%20SQL%20injection%2077789 HTTP/1.1,benign,test,test:benign:2,sqli,0.6660627,False,True,False
+POST /query?id=javascript%20alert%20documentation%207734 HTTP/1.1,benign,test,test:benign:3,benign,0.03781432,False,False,False
+POST /search?value=search for phone model 4795 HTTP/1.1,benign,test,test:benign:0,benign,0.004679501,False,False,False
+POST /form?value=support ticket 90501 for blue HTTP/1.1,benign,test,test:benign:1,benign,0.013399065,False,False,False
+POST /search?q=how%20to%20prevent%20SQL%20injection%2085470 HTTP/1.1,benign,test,test:benign:2,benign,0.44669986,False,False,False
+GET /search?id=javascript%20alert%20documentation%2055807 HTTP/1.1,benign,test,test:benign:3,benign,0.18388069,False,False,False
+GET /form?q=search%20for%20coffee%20model%2068159 HTTP/1.1,benign,test,test:benign:0,benign,0.002305448,False,False,False
+POST /item?input=support ticket 5129 for alpha HTTP/1.1,benign,test,test:benign:1,benign,0.013318062,False,False,False
+POST /query?value=how%20to%20prevent%20SQL%20injection%2052360 HTTP/1.1,benign,test,test:benign:2,benign,0.026970744,False,False,False
+POST /item?id=javascript alert documentation 68492 HTTP/1.1,benign,test,test:benign:3,benign,0.2383635,False,False,False
+POST /query?input=search for music model 38046 HTTP/1.1,benign,test,test:benign:0,benign,0.027665496,False,False,False
+GET /item?input=support ticket 60680 for blue HTTP/1.1,benign,test,test:benign:1,benign,0.13419771,False,False,False
+GET /form?q=' OR (1297=1297) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9995537,True,False,False
+"GET /search?input=0 UNION SELECT NULL,NULL,744 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9992556,True,False,False
+POST /item?q=%27%20OR%20%2843399%3D43399%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99971116,True,False,False
+"GET /query?q=0 UNION SELECT NULL,NULL,45944 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99945325,True,False,False
+POST /query?value=%27%20OR%20%2825259%3D25259%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996768,True,False,False
+"GET /search?id=0 UNION SELECT NULL,NULL,81864 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9994381,True,False,False
+GET /query?q=%27%20OR%20%2813507%3D13507%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9997329,True,False,False
+"POST /query?value=0 UNION SELECT NULL,NULL,16617 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99942195,True,False,False
+POST /item?id=' OR (96644=96644) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996214,True,False,False
+"GET /item?id=0 UNION SELECT NULL,NULL,360 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9994003,True,False,False
+POST /search?q=' OR (21613=21613) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996699,True,False,False
+"POST /form?value=0 UNION SELECT NULL,NULL,17963 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9993843,True,False,False
+GET /form?input=' OR (39666=39666) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996876,True,False,False
+"POST /query?q=0 UNION SELECT NULL,NULL,50542 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9994631,True,False,False
+POST /item?input=' OR (79358=79358) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9997003,True,False,False
+"POST /search?input=0 UNION SELECT NULL,NULL,73474 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9992976,True,False,False
+POST /form?value=%27%20OR%20%2885481%3D85481%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.999763,True,False,False
+GET /form?value=0%20UNION%20SELECT%20NULL%2CNULL%2C95494%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.9994566,True,False,False
+GET /form?value=' OR (23472=23472) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996332,True,False,False
+POST /query?q=0%20UNION%20SELECT%20NULL%2CNULL%2C68954%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.99950266,True,False,False
+GET /query?q=' OR (48358=48358) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996586,True,False,False
+"POST /search?value=0 UNION SELECT NULL,NULL,84842 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99936074,True,False,False
+GET /form?input=%27%20OR%20%2835946%3D35946%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99970126,True,False,False
+"GET /search?value=0 UNION SELECT NULL,NULL,64274 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9993308,True,False,False
+GET /item?id=' OR (3789=3789) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996111,True,False,False
+"GET /search?input=0 UNION SELECT NULL,NULL,10865 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9993476,True,False,False
+GET /query?id=%27%20OR%20%2883565%3D83565%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99971604,True,False,False
+"POST /query?id=0 UNION SELECT NULL,NULL,85875 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99947906,True,False,False
+GET /form?input=' OR (76929=76929) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996482,True,False,False
+GET /item?value=0%20UNION%20SELECT%20NULL%2CNULL%2C87529%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.99944454,True,False,False
+POST /item?input=' OR (11015=11015) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996711,True,False,False
+"GET /query?value=0 UNION SELECT NULL,NULL,22681 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9994077,True,False,False
+POST /search?input=%27%20OR%20%2873483%3D73483%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9997359,True,False,False
+"GET /search?id=0 UNION SELECT NULL,NULL,11565 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.999481,True,False,False
+GET /item?q=' OR (41625=41625) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99960476,True,False,False
+"GET /item?value=0 UNION SELECT NULL,NULL,28521 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9994263,True,False,False
+GET /item?value=' OR (89255=89255) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996264,True,False,False
+"GET /query?id=0 UNION SELECT NULL,NULL,7000 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99942714,True,False,False
+GET /query?id=' OR (74070=74070) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996673,True,False,False
+POST /query?q=0%20UNION%20SELECT%20NULL%2CNULL%2C23224%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.9994964,True,False,False
+POST /form?id=' OR (64220=64220) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.999637,True,False,False
+"GET /form?value=0 UNION SELECT NULL,NULL,4824 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99937814,True,False,False
+GET /query?value=' OR (84683=84683) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9997032,True,False,False
+"POST /item?input=0 UNION SELECT NULL,NULL,11905 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99944043,True,False,False
+GET /form?id=' OR (34199=34199) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99964,True,False,False
+POST /search?value=0%20UNION%20SELECT%20NULL%2CNULL%2C61252%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.9993959,True,False,False
+GET /item?input=' OR (91929=91929) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996629,True,False,False
+GET /item?value=0%20UNION%20SELECT%20NULL%2CNULL%2C62334%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.9994573,True,False,False
+GET /search?input=' OR (40154=40154) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996801,True,False,False
+"POST /form?input=0 UNION SELECT NULL,NULL,80830 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99940276,True,False,False
+POST /form?input=' OR (31937=31937) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99970895,True,False,False
+"GET /search?input=0 UNION SELECT NULL,NULL,39354 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9992952,True,False,False
+POST /search?id=' OR (55832=55832) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99970174,True,False,False
+"GET /item?id=0 UNION SELECT NULL,NULL,67145 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9994687,True,False,False
+GET /search?value=' OR (86964=86964) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996328,True,False,False
+"GET /form?q=0 UNION SELECT NULL,NULL,18551 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99951845,True,False,False
+GET /query?value=%27%20OR%20%2886335%3D86335%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9997409,True,False,False
+GET /form?q=0%20UNION%20SELECT%20NULL%2CNULL%2C10544%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.9995362,True,False,False
+POST /search?input=%27%20OR%20%2894923%3D94923%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99970835,True,False,False
+POST /item?input=0%20UNION%20SELECT%20NULL%2CNULL%2C20893%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.9994291,True,False,False
+GET /search?input=' OR (87623=87623) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9994642,True,False,False
+"GET /form?value=0 UNION SELECT NULL,NULL,16853 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9994155,True,False,False
+POST /form?q=' OR (37128=37128) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99965876,True,False,False
+"GET /item?id=0 UNION SELECT NULL,NULL,45474 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9994572,True,False,False
+GET /form?q=' OR (30832=30832) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.999621,True,False,False
+GET /search?id=0%20UNION%20SELECT%20NULL%2CNULL%2C84627%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.9994435,True,False,False
+POST /item?input=%27%20OR%20%2839585%3D39585%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9997536,True,False,False
+POST /search?value=0%20UNION%20SELECT%20NULL%2CNULL%2C19768%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.9993818,True,False,False
+GET /form?q=%27%20OR%20%2855287%3D55287%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99971646,True,False,False
+"POST /search?id=0 UNION SELECT NULL,NULL,45398 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99937683,True,False,False
+POST /form?q=' OR (41825=41825) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996535,True,False,False
+"POST /form?q=0 UNION SELECT NULL,NULL,63729 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99944377,True,False,False
+GET /form?value=%27%20OR%20%2839718%3D39718%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9997386,True,False,False
+POST /search?id=0%20UNION%20SELECT%20NULL%2CNULL%2C62078%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.9994333,True,False,False
+GET /item?q=' OR (55593=55593) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.999595,True,False,False
+"GET /form?input=0 UNION SELECT NULL,NULL,44196 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9993836,True,False,False
+GET /form?input=%27%20OR%20%286372%3D6372%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9997076,True,False,False
+"POST /query?input=0 UNION SELECT NULL,NULL,48127 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9993562,True,False,False
+GET /query?id=%27%20OR%20%2844241%3D44241%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99971104,True,False,False
+"POST /query?value=0 UNION SELECT NULL,NULL,38445 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9993928,True,False,False
+POST /search?input=' OR (83369=83369) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996797,True,False,False
+GET /item?id=0%20UNION%20SELECT%20NULL%2CNULL%2C32598%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.9995136,True,False,False
+POST /query?input=' OR (82968=82968) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99965906,True,False,False
+POST /search?q=0%20UNION%20SELECT%20NULL%2CNULL%2C90317%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.999495,True,False,False
+GET /form?q=%27%20OR%20%2842816%3D42816%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9997168,True,False,False
+"POST /form?q=0 UNION SELECT NULL,NULL,44282 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99943924,True,False,False
+GET /form?q=%27%20OR%20%2824118%3D24118%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9997042,True,False,False
+POST /item?q=0%20UNION%20SELECT%20NULL%2CNULL%2C25129%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.99951255,True,False,False
+POST /query?id=' OR (49061=49061) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99965036,True,False,False
+"POST /item?value=0 UNION SELECT NULL,NULL,36297 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99937224,True,False,False
+GET /form?id=' OR (35750=35750) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996204,True,False,False
+"POST /search?id=0 UNION SELECT NULL,NULL,36024 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99937534,True,False,False
+GET /search?value=' OR (29478=29478) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99955785,True,False,False
+"POST /form?value=0 UNION SELECT NULL,NULL,95451 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9994149,True,False,False
+GET /query?value=' OR (70979=70979) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.999602,True,False,False
+"GET /form?input=0 UNION SELECT NULL,NULL,41906 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99938685,True,False,False
+POST /query?input=' OR (27618=27618) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9995872,True,False,False
+"GET /form?value=0 UNION SELECT NULL,NULL,4239 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9993617,True,False,False
+POST /query?value=' OR (10901=10901) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.999576,True,False,False
+"POST /search?id=0 UNION SELECT NULL,NULL,98426 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9993503,True,False,False
+POST /form?input=%27%20OR%20%2881912%3D81912%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99974763,True,False,False
+"POST /item?input=0 UNION SELECT NULL,NULL,3078 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99938196,True,False,False
+GET /search?input=' OR (70473=70473) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99959373,True,False,False
+"POST /item?id=0 UNION SELECT NULL,NULL,28623 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99944824,True,False,False
+POST /item?input=' OR (96277=96277) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99955577,True,False,False
+POST /search?value=0%20UNION%20SELECT%20NULL%2CNULL%2C78554%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.9993862,True,False,False
+GET /form?input=' OR (65848=65848) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996785,True,False,False
+POST /item?id=0%20UNION%20SELECT%20NULL%2CNULL%2C99208%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.9995009,True,False,False
+POST /form?id=%27%20OR%20%2852445%3D52445%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9997164,True,False,False
+"POST /form?input=0 UNION SELECT NULL,NULL,89578 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9993701,True,False,False
+GET /item?q=%27%20OR%20%2824766%3D24766%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99964786,True,False,False
+"GET /query?id=0 UNION SELECT NULL,NULL,78596 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9994224,True,False,False
+GET /query?q=' OR (21828=21828) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99963385,True,False,False
+"POST /item?id=0 UNION SELECT NULL,NULL,97391 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99946976,True,False,False
+GET /item?input=' OR (60010=60010) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9995814,True,False,False
+POST /search?q=0%20UNION%20SELECT%20NULL%2CNULL%2C93437%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.9994756,True,False,False
+GET /form?id=' OR (27142=27142) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99964,True,False,False
+"GET /query?id=0 UNION SELECT NULL,NULL,23193 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.999424,True,False,False
+GET /search?q=' OR (32104=32104) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996569,True,False,False
+"POST /form?q=0 UNION SELECT NULL,NULL,89404 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99943626,True,False,False
+GET /search?input=' OR (54678=54678) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9995535,True,False,False
+POST /search?value=0%20UNION%20SELECT%20NULL%2CNULL%2C63030%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.99941456,True,False,False
+POST /form?q=' OR (52364=52364) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99964976,True,False,False
+"GET /item?value=0 UNION SELECT NULL,NULL,13592 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99942744,True,False,False
+GET /form?id=%27%20OR%20%2854128%3D54128%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99972576,True,False,False
+GET /form?input=0%20UNION%20SELECT%20NULL%2CNULL%2C34679%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.9993989,True,False,False
+POST /query?input=' OR (98642=98642) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996024,True,False,False
+"POST /search?id=0 UNION SELECT NULL,NULL,43350 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9994064,True,False,False
+GET /query?value=%27%20OR%20%2819411%3D19411%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99974155,True,False,False
+GET /query?input=0%20UNION%20SELECT%20NULL%2CNULL%2C93569%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.9993802,True,False,False
+GET /item?id=' OR (93474=93474) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996495,True,False,False
+"POST /item?q=0 UNION SELECT NULL,NULL,79629 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99943554,True,False,False
+GET /query?value=%27%20OR%20%2827752%3D27752%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9997009,True,False,False
+"POST /form?id=0 UNION SELECT NULL,NULL,94531 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.9994414,True,False,False
+POST /query?input=%27%20OR%20%2845126%3D45126%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99968475,True,False,False
+POST /item?input=0%20UNION%20SELECT%20NULL%2CNULL%2C63612%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.9994511,True,False,False
+GET /query?id=' OR (49800=49800) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99965465,True,False,False
+POST /search?id=0%20UNION%20SELECT%20NULL%2CNULL%2C40551%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.9994766,True,False,False
+GET /item?id=' OR (46737=46737) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996252,True,False,False
+GET /query?q=0%20UNION%20SELECT%20NULL%2CNULL%2C47662%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.9995034,True,False,False
+GET /search?input=' OR (35592=35592) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99961644,True,False,False
+POST /item?id=0%20UNION%20SELECT%20NULL%2CNULL%2C74288%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.999508,True,False,False
+GET /search?value=' OR (29938=29938) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996513,True,False,False
+GET /search?id=0%20UNION%20SELECT%20NULL%2CNULL%2C72358%20--%20 HTTP/1.1,sqli,test,test:sqli:1,sqli,0.99946505,True,False,False
+GET /item?input=%27%20OR%20%2868502%3D68502%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99970853,True,False,False
+"GET /query?q=0 UNION SELECT NULL,NULL,60862 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99945754,True,False,False
+GET /form?id=%27%20OR%20%2825755%3D25755%29%20--%20 HTTP/1.1,sqli,test,test:sqli:0,sqli,0.99969363,True,False,False
+"POST /query?q=0 UNION SELECT NULL,NULL,13100 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99946105,True,False,False
+GET /form?id=' OR (76256=76256) --  HTTP/1.1,sqli,test,test:sqli:0,sqli,0.9996235,True,False,False
+"POST /search?value=0 UNION SELECT NULL,NULL,77203 --  HTTP/1.1",sqli,test,test:sqli:1,sqli,0.99935025,True,False,False
+POST /item?value=<svg onload=confirm(98911)> HTTP/1.1,xss,test,test:xss:0,xss,0.99963,True,False,False
+POST /query?id=<script>prompt(66501)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99932826,True,False,False
+POST /form?q=<svg onload=confirm(44724)> HTTP/1.1,xss,test,test:xss:0,xss,0.9995581,True,False,False
+POST /form?input=<script>prompt(99180)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99950963,True,False,False
+POST /query?q=%3Csvg%20onload%3Dconfirm%2821391%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.9996852,True,False,False
+GET /item?q=<script>prompt(58100)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99934036,True,False,False
+POST /query?input=%3Csvg%20onload%3Dconfirm%2899998%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.99961114,True,False,False
+GET /item?value=%3Cscript%3Eprompt%2813499%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.9994872,True,False,False
+GET /item?id=<svg onload=confirm(20508)> HTTP/1.1,xss,test,test:xss:0,xss,0.9994461,True,False,False
+POST /query?id=<script>prompt(42697)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9994338,True,False,False
+POST /query?id=<svg onload=confirm(34462)> HTTP/1.1,xss,test,test:xss:0,xss,0.99956393,True,False,False
+POST /form?value=<script>prompt(40148)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.999574,True,False,False
+POST /search?input=<svg onload=confirm(55754)> HTTP/1.1,xss,test,test:xss:0,xss,0.99879205,True,False,False
+GET /form?value=<script>prompt(7259)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99925196,True,False,False
+POST /query?value=%3Csvg%20onload%3Dconfirm%282563%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.99952227,True,False,False
+POST /query?id=<script>prompt(3113)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99932206,True,False,False
+POST /search?q=<svg onload=confirm(28187)> HTTP/1.1,xss,test,test:xss:0,xss,0.99961996,True,False,False
+POST /form?q=%3Cscript%3Eprompt%2831878%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.9994561,True,False,False
+POST /item?value=<svg onload=confirm(86441)> HTTP/1.1,xss,test,test:xss:0,xss,0.99963516,True,False,False
+GET /search?value=<script>prompt(79532)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9994514,True,False,False
+POST /search?input=<svg onload=confirm(36191)> HTTP/1.1,xss,test,test:xss:0,xss,0.99938107,True,False,False
+POST /item?id=%3Cscript%3Eprompt%2817610%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.99944484,True,False,False
+GET /form?id=<svg onload=confirm(77317)> HTTP/1.1,xss,test,test:xss:0,xss,0.9994936,True,False,False
+POST /query?q=<script>prompt(42980)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9995299,True,False,False
+POST /query?input=<svg onload=confirm(18421)> HTTP/1.1,xss,test,test:xss:0,xss,0.9995009,True,False,False
+POST /item?input=%3Cscript%3Eprompt%2897956%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.9995393,True,False,False
+POST /query?q=%3Csvg%20onload%3Dconfirm%2847484%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.99966675,True,False,False
+POST /form?input=<script>prompt(18395)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99954116,True,False,False
+POST /search?input=%3Csvg%20onload%3Dconfirm%286305%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.99958766,True,False,False
+POST /form?value=<script>prompt(4215)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9993721,True,False,False
+GET /search?q=<svg onload=confirm(75352)> HTTP/1.1,xss,test,test:xss:0,xss,0.9996281,True,False,False
+GET /form?id=<script>prompt(69709)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9993466,True,False,False
+POST /query?input=<svg onload=confirm(98564)> HTTP/1.1,xss,test,test:xss:0,xss,0.99939245,True,False,False
+POST /search?id=%3Cscript%3Eprompt%2859161%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.99948424,True,False,False
+POST /search?input=%3Csvg%20onload%3Dconfirm%2884923%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.9995462,True,False,False
+POST /search?q=%3Cscript%3Eprompt%2875342%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.99953383,True,False,False
+POST /item?value=<svg onload=confirm(29531)> HTTP/1.1,xss,test,test:xss:0,xss,0.9996183,True,False,False
+GET /query?id=<script>prompt(69788)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99951965,True,False,False
+GET /search?q=%3Csvg%20onload%3Dconfirm%2824762%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.99966294,True,False,False
+GET /item?value=<script>prompt(69926)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9992437,True,False,False
+GET /item?id=<svg onload=confirm(9088)> HTTP/1.1,xss,test,test:xss:0,xss,0.9995321,True,False,False
+POST /item?id=<script>prompt(39715)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9994582,True,False,False
+POST /search?input=%3Csvg%20onload%3Dconfirm%2846585%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.99921685,True,False,False
+GET /form?q=<script>prompt(3342)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9993904,True,False,False
+GET /form?q=<svg onload=confirm(58574)> HTTP/1.1,xss,test,test:xss:0,xss,0.9996201,True,False,False
+GET /item?id=<script>prompt(12180)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9992644,True,False,False
+POST /query?input=<svg onload=confirm(15785)> HTTP/1.1,xss,test,test:xss:0,xss,0.99923784,True,False,False
+POST /form?value=<script>prompt(25042)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.999572,True,False,False
+GET /search?input=<svg onload=confirm(66690)> HTTP/1.1,xss,test,test:xss:0,xss,0.99944323,True,False,False
+GET /query?value=<script>prompt(55062)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99957705,True,False,False
+POST /item?q=<svg onload=confirm(40639)> HTTP/1.1,xss,test,test:xss:0,xss,0.9995111,True,False,False
+POST /search?value=<script>prompt(85263)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9994257,True,False,False
+GET /item?id=<svg onload=confirm(95643)> HTTP/1.1,xss,test,test:xss:0,xss,0.99948263,True,False,False
+GET /item?input=%3Cscript%3Eprompt%2823256%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.99936736,True,False,False
+GET /query?value=%3Csvg%20onload%3Dconfirm%2899924%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.9996436,True,False,False
+POST /item?id=<script>prompt(80954)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9994785,True,False,False
+GET /query?q=<svg onload=confirm(67983)> HTTP/1.1,xss,test,test:xss:0,xss,0.99950475,True,False,False
+POST /form?value=<script>prompt(21292)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9995442,True,False,False
+GET /query?q=%3Csvg%20onload%3Dconfirm%2834767%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.9995982,True,False,False
+GET /form?q=<script>prompt(61679)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99930876,True,False,False
+GET /item?q=<svg onload=confirm(70720)> HTTP/1.1,xss,test,test:xss:0,xss,0.9995799,True,False,False
+GET /form?q=<script>prompt(1968)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9993909,True,False,False
+POST /form?id=<svg onload=confirm(14743)> HTTP/1.1,xss,test,test:xss:0,xss,0.999626,True,False,False
+POST /form?value=%3Cscript%3Eprompt%2879081%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.9995802,True,False,False
+POST /search?input=<svg onload=confirm(16813)> HTTP/1.1,xss,test,test:xss:0,xss,0.9994525,True,False,False
+GET /item?id=<script>prompt(64602)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.999232,True,False,False
+GET /item?q=<svg onload=confirm(67477)> HTTP/1.1,xss,test,test:xss:0,xss,0.99961245,True,False,False
+POST /search?id=<script>prompt(97420)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9994765,True,False,False
+POST /query?input=%3Csvg%20onload%3Dconfirm%2829661%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.9994572,True,False,False
+POST /item?value=<script>prompt(87612)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99955946,True,False,False
+GET /form?q=<svg onload=confirm(55325)> HTTP/1.1,xss,test,test:xss:0,xss,0.9995968,True,False,False
+GET /item?id=%3Cscript%3Eprompt%2825948%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.99945956,True,False,False
+POST /form?value=%3Csvg%20onload%3Dconfirm%2852014%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.9996371,True,False,False
+POST /form?id=<script>prompt(24618)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99946845,True,False,False
+POST /search?value=%3Csvg%20onload%3Dconfirm%2859410%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.9977986,True,False,False
+POST /item?value=<script>prompt(85922)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99956846,True,False,False
+POST /search?value=<svg onload=confirm(44703)> HTTP/1.1,xss,test,test:xss:0,xss,0.998765,True,False,False
+POST /form?q=%3Cscript%3Eprompt%2868045%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.9994576,True,False,False
+POST /search?q=%3Csvg%20onload%3Dconfirm%2871223%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.99965024,True,False,False
+POST /query?input=%3Cscript%3Eprompt%2872160%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.99945325,True,False,False
+GET /item?input=<svg onload=confirm(57178)> HTTP/1.1,xss,test,test:xss:0,xss,0.9995431,True,False,False
+GET /search?id=%3Cscript%3Eprompt%2866975%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.9994987,True,False,False
+GET /search?value=<svg onload=confirm(96139)> HTTP/1.1,xss,test,test:xss:0,xss,0.99938256,True,False,False
+GET /query?id=<script>prompt(70717)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9994664,True,False,False
+GET /item?input=%3Csvg%20onload%3Dconfirm%2813135%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.99960166,True,False,False
+POST /query?input=%3Cscript%3Eprompt%2826512%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.99942464,True,False,False
+POST /query?id=<svg onload=confirm(68396)> HTTP/1.1,xss,test,test:xss:0,xss,0.9995638,True,False,False
+POST /query?id=%3Cscript%3Eprompt%2894584%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.9995639,True,False,False
+GET /search?input=<svg onload=confirm(96146)> HTTP/1.1,xss,test,test:xss:0,xss,0.9994622,True,False,False
+GET /item?input=<script>prompt(18399)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9994342,True,False,False
+GET /item?value=<svg onload=confirm(20908)> HTTP/1.1,xss,test,test:xss:0,xss,0.9995313,True,False,False
+POST /item?input=<script>prompt(9254)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99939823,True,False,False
+GET /item?input=<svg onload=confirm(16193)> HTTP/1.1,xss,test,test:xss:0,xss,0.9996114,True,False,False
+POST /search?q=%3Cscript%3Eprompt%2818675%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.9995304,True,False,False
+POST /item?input=<svg onload=confirm(68248)> HTTP/1.1,xss,test,test:xss:0,xss,0.9995946,True,False,False
+POST /item?q=<script>prompt(39177)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.999347,True,False,False
+POST /search?input=%3Csvg%20onload%3Dconfirm%2898871%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.99944925,True,False,False
+POST /item?input=<script>prompt(33492)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9995235,True,False,False
+GET /search?value=%3Csvg%20onload%3Dconfirm%2899422%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.9995789,True,False,False
+POST /form?q=<script>prompt(31636)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.999287,True,False,False
+POST /query?value=<svg onload=confirm(83641)> HTTP/1.1,xss,test,test:xss:0,xss,0.9992985,True,False,False
+POST /query?q=%3Cscript%3Eprompt%2883930%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.99954975,True,False,False
+POST /item?input=<svg onload=confirm(1704)> HTTP/1.1,xss,test,test:xss:0,xss,0.9994767,True,False,False
+POST /search?input=<script>prompt(29027)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99948484,True,False,False
+POST /form?q=<svg onload=confirm(73498)> HTTP/1.1,xss,test,test:xss:0,xss,0.99955523,True,False,False
+GET /search?q=<script>prompt(78871)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99946505,True,False,False
+POST /form?q=<svg onload=confirm(31285)> HTTP/1.1,xss,test,test:xss:0,xss,0.9995425,True,False,False
+POST /search?input=<script>prompt(45531)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99948883,True,False,False
+GET /item?id=<svg onload=confirm(82338)> HTTP/1.1,xss,test,test:xss:0,xss,0.99950385,True,False,False
+GET /query?input=<script>prompt(3174)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99948543,True,False,False
+POST /query?value=<svg onload=confirm(3729)> HTTP/1.1,xss,test,test:xss:0,xss,0.99951357,True,False,False
+GET /query?input=%3Cscript%3Eprompt%2846196%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.9995421,True,False,False
+GET /item?value=%3Csvg%20onload%3Dconfirm%2891643%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.9996522,True,False,False
+GET /form?q=<script>prompt(97095)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9993856,True,False,False
+GET /query?value=<svg onload=confirm(43757)> HTTP/1.1,xss,test,test:xss:0,xss,0.9995765,True,False,False
+POST /query?input=%3Cscript%3Eprompt%2813287%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.99952847,True,False,False
+GET /query?input=<svg onload=confirm(83827)> HTTP/1.1,xss,test,test:xss:0,xss,0.99956155,True,False,False
+POST /item?id=<script>prompt(45963)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99947846,True,False,False
+POST /query?id=%3Csvg%20onload%3Dconfirm%2842314%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.99963874,True,False,False
+GET /search?q=<script>prompt(52172)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99945396,True,False,False
+POST /query?id=<svg onload=confirm(93289)> HTTP/1.1,xss,test,test:xss:0,xss,0.99957234,True,False,False
+POST /item?input=<script>prompt(93842)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99954045,True,False,False
+POST /search?value=<svg onload=confirm(13592)> HTTP/1.1,xss,test,test:xss:0,xss,0.9985106,True,False,False
+GET /item?value=<script>prompt(29478)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9993916,True,False,False
+GET /item?id=%3Csvg%20onload%3Dconfirm%283464%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.99960417,True,False,False
+GET /search?value=<script>prompt(57728)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9994498,True,False,False
+POST /form?input=<svg onload=confirm(31949)> HTTP/1.1,xss,test,test:xss:0,xss,0.9996363,True,False,False
+GET /form?id=<script>prompt(72928)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99930596,True,False,False
+POST /query?value=<svg onload=confirm(67980)> HTTP/1.1,xss,test,test:xss:0,xss,0.9989175,True,False,False
+GET /query?value=<script>prompt(34554)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99959254,True,False,False
+GET /item?q=%3Csvg%20onload%3Dconfirm%2810107%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.9996748,True,False,False
+POST /search?id=<script>prompt(66522)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9993187,True,False,False
+GET /form?value=<svg onload=confirm(94395)> HTTP/1.1,xss,test,test:xss:0,xss,0.9995739,True,False,False
+POST /form?input=<script>prompt(75279)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99954975,True,False,False
+POST /search?value=%3Csvg%20onload%3Dconfirm%288484%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.99952227,True,False,False
+POST /search?value=%3Cscript%3Eprompt%2862482%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.9993687,True,False,False
+GET /form?input=<svg onload=confirm(74688)> HTTP/1.1,xss,test,test:xss:0,xss,0.9996022,True,False,False
+GET /form?value=<script>prompt(92313)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99938774,True,False,False
+POST /item?input=<svg onload=confirm(70578)> HTTP/1.1,xss,test,test:xss:0,xss,0.99958575,True,False,False
+POST /search?q=<script>prompt(18914)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.9994899,True,False,False
+GET /search?input=<svg onload=confirm(93348)> HTTP/1.1,xss,test,test:xss:0,xss,0.99960214,True,False,False
+GET /item?id=<script>prompt(95742)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99935657,True,False,False
+GET /query?q=<svg onload=confirm(3874)> HTTP/1.1,xss,test,test:xss:0,xss,0.99951726,True,False,False
+POST /form?input=<script>prompt(12351)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99951446,True,False,False
+POST /item?q=%3Csvg%20onload%3Dconfirm%2891290%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.99960333,True,False,False
+POST /query?input=%3Cscript%3Eprompt%2840799%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.9995545,True,False,False
+GET /item?value=%3Csvg%20onload%3Dconfirm%2811902%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.99958783,True,False,False
+POST /search?value=%3Cscript%3Eprompt%2884843%29%3C%2Fscript%3E HTTP/1.1,xss,test,test:xss:1,xss,0.999558,True,False,False
+GET /query?q=%3Csvg%20onload%3Dconfirm%282683%29%3E HTTP/1.1,xss,test,test:xss:0,xss,0.99957144,True,False,False
+GET /search?value=<script>prompt(22097)</script> HTTP/1.1,xss,test,test:xss:1,xss,0.99937963,True,False,False
+POST /search?id=technical%20article%20on%20onerror%20phone%2050440 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.09035975,False,False,False
+GET /item?value=SELECT name FROM products tutorial 24714 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.9563048,True,True,True
+POST /item?input=HTML tag example &lt;script&gt; 12719 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.9993976,True,True,True
+POST /search?q=union of sets blue 92595 HTTP/1.1,benign,challenge,challenge:benign:3,sqli,0.6311907,False,True,False
+POST /query?q=technical article on onerror book 70472 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.068929315,False,False,False
+GET /search?input=SELECT%20name%20FROM%20products%20tutorial%2045761 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.99068105,True,True,True
+POST /form?input=HTML%20tag%20example%20%26lt%3Bscript%26gt%3B%2025327 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.99946463,True,True,True
+GET /query?id=union of sets book 58721 HTTP/1.1,benign,challenge,challenge:benign:3,sqli,0.98773915,True,True,True
+POST /item?input=technical%20article%20on%20onerror%20blue%2047942 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.09990466,False,False,False
+POST /search?q=SELECT%20name%20FROM%20products%20tutorial%205461 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.99375767,True,True,True
+POST /item?value=HTML%20tag%20example%20%26lt%3Bscript%26gt%3B%2086977 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.9992551,True,True,True
+GET /query?input=union of sets blue 41994 HTTP/1.1,benign,challenge,challenge:benign:3,sqli,0.58989537,False,True,False
+POST /search?input=technical article on onerror alpha 52994 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.023919225,False,False,False
+POST /query?input=SELECT name FROM products tutorial 13683 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.98428065,True,True,True
+GET /item?q=HTML tag example &lt;script&gt; 37653 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.99916816,True,True,True
+GET /query?q=union of sets music 40264 HTTP/1.1,benign,challenge,challenge:benign:3,sqli,0.9857664,True,True,True
+POST /form?id=technical%20article%20on%20onerror%20book%2070040 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.15571433,False,False,False
+POST /item?value=SELECT%20name%20FROM%20products%20tutorial%2046116 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.9901724,True,True,True
+GET /search?input=HTML%20tag%20example%20%26lt%3Bscript%26gt%3B%2089287 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.99940485,True,True,True
+GET /item?input=union of sets blue 24350 HTTP/1.1,benign,challenge,challenge:benign:3,benign,0.5042423,False,False,False
+GET /search?input=technical article on onerror music 27107 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.025262415,False,False,False
+POST /search?id=SELECT%20name%20FROM%20products%20tutorial%2027014 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.9850097,True,True,True
+POST /item?value=HTML tag example &lt;script&gt; 86464 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.9993014,True,True,True
+GET /query?input=union%20of%20sets%20book%2052695 HTTP/1.1,benign,challenge,challenge:benign:3,benign,0.3792783,False,False,False
+POST /item?value=technical article on onerror music 89190 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.08130938,False,False,False
+POST /form?value=SELECT%20name%20FROM%20products%20tutorial%2053645 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.9960844,True,True,True
+GET /form?q=HTML%20tag%20example%20%26lt%3Bscript%26gt%3B%2024847 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.999157,True,True,True
+GET /search?q=union%20of%20sets%20alpha%2091236 HTTP/1.1,benign,challenge,challenge:benign:3,benign,0.42820466,False,False,False
+POST /search?id=technical article on onerror blue 15119 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.032476366,False,False,False
+POST /form?value=SELECT%20name%20FROM%20products%20tutorial%2070387 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.99465144,True,True,True
+POST /search?q=HTML%20tag%20example%20%26lt%3Bscript%26gt%3B%2070298 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.9993832,True,True,True
+POST /item?id=union of sets blue 51771 HTTP/1.1,benign,challenge,challenge:benign:3,sqli,0.7028134,False,True,False
+GET /search?id=technical article on onerror book 67934 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.41982323,False,False,False
+GET /item?input=SELECT%20name%20FROM%20products%20tutorial%204994 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.9878326,True,True,True
+GET /form?q=HTML tag example &lt;script&gt; 80661 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.9988557,True,True,True
+GET /item?value=union of sets music 86894 HTTP/1.1,benign,challenge,challenge:benign:3,benign,0.0892269,False,False,False
+GET /query?value=technical%20article%20on%20onerror%20music%205745 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.19734251,False,False,False
+GET /form?input=SELECT name FROM products tutorial 23016 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.9857717,True,True,True
+GET /item?id=HTML tag example &lt;script&gt; 20076 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.73145616,False,True,False
+GET /form?q=union of sets coffee 44035 HTTP/1.1,benign,challenge,challenge:benign:3,benign,0.03666073,False,False,False
+GET /item?value=technical article on onerror music 32224 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.018470347,False,False,False
+POST /search?id=SELECT name FROM products tutorial 7443 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.98318416,True,True,True
+GET /search?id=HTML tag example &lt;script&gt; 94916 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.999379,True,True,True
+GET /form?q=union%20of%20sets%20alpha%20783 HTTP/1.1,benign,challenge,challenge:benign:3,benign,0.002472937,False,False,False
+GET /search?input=technical%20article%20on%20onerror%20coffee%2029438 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.02270484,False,False,False
+POST /form?id=SELECT name FROM products tutorial 74916 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.9880119,True,True,True
+POST /form?input=HTML tag example &lt;script&gt; 89516 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.99952394,True,True,True
+POST /item?id=union of sets alpha 20082 HTTP/1.1,benign,challenge,challenge:benign:3,benign,0.006403208,False,False,False
+POST /query?id=technical article on onerror coffee 37609 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.044081986,False,False,False
+POST /item?q=SELECT%20name%20FROM%20products%20tutorial%2048254 HTTP/1.1,benign,challenge,challenge:benign:1,sqli,0.9924899,True,True,True
+GET /form?id=HTML tag example &lt;script&gt; 60294 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.9590967,True,True,True
+POST /form?input=union%20of%20sets%20phone%2082126 HTTP/1.1,benign,challenge,challenge:benign:3,sqli,0.85489523,False,True,False
+POST /form?value=technical article on onerror coffee 60379 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.07820505,False,False,False
+GET /item?id=SELECT name FROM products tutorial 44286 HTTP/1.1,benign,challenge,challenge:benign:1,sqli,0.9894659,True,True,True
+GET /query?input=HTML%20tag%20example%20%26lt%3Bscript%26gt%3B%2028447 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.9994814,True,True,True
+POST /item?input=union of sets alpha 71864 HTTP/1.1,benign,challenge,challenge:benign:3,sqli,0.8303748,False,True,False
+POST /query?input=technical%20article%20on%20onerror%20alpha%2018534 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.05329436,False,False,False
+GET /form?input=SELECT%20name%20FROM%20products%20tutorial%206679 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.9893278,True,True,True
+GET /form?id=HTML%20tag%20example%20%26lt%3Bscript%26gt%3B%2023644 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.99714303,True,True,True
+GET /form?id=union of sets coffee 35834 HTTP/1.1,benign,challenge,challenge:benign:3,benign,0.020754933,False,False,False
+GET /item?input=technical%20article%20on%20onerror%20alpha%2019760 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.03874135,False,False,False
+GET /search?q=SELECT name FROM products tutorial 41456 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.9910077,True,True,True
+GET /query?q=HTML%20tag%20example%20%26lt%3Bscript%26gt%3B%2011249 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.9823308,True,True,True
+GET /item?value=union%20of%20sets%20phone%2041074 HTTP/1.1,benign,challenge,challenge:benign:3,benign,0.057543516,False,False,False
+POST /form?input=technical article on onerror phone 8663 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.08872849,False,False,False
+POST /search?id=SELECT%20name%20FROM%20products%20tutorial%2044393 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.9934974,True,True,True
+POST /item?input=HTML tag example &lt;script&gt; 19935 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.99946046,True,True,True
+GET /search?id=union of sets phone 91742 HTTP/1.1,benign,challenge,challenge:benign:3,sqli,0.792308,False,True,False
+GET /form?input=technical article on onerror book 58324 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.11778402,False,False,False
+GET /query?input=SELECT%20name%20FROM%20products%20tutorial%2049734 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.9965192,True,True,True
+GET /form?value=HTML%20tag%20example%20%26lt%3Bscript%26gt%3B%2076672 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.99941343,True,True,True
+GET /item?id=union of sets book 44545 HTTP/1.1,benign,challenge,challenge:benign:3,sqli,0.9645816,True,True,True
+GET /search?id=technical article on onerror phone 81803 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.11893642,False,False,False
+GET /query?input=SELECT%20name%20FROM%20products%20tutorial%2083138 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.99730307,True,True,True
+POST /item?value=HTML tag example &lt;script&gt; 2101 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.99910545,True,True,True
+GET /form?value=union of sets blue 33133 HTTP/1.1,benign,challenge,challenge:benign:3,benign,0.5565876,False,False,False
+POST /query?input=technical article on onerror book 21883 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.06933403,False,False,False
+POST /search?value=SELECT%20name%20FROM%20products%20tutorial%2056757 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.7967157,False,True,False
+GET /search?value=HTML%20tag%20example%20%26lt%3Bscript%26gt%3B%2072266 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.999138,True,True,True
+POST /form?q=union of sets blue 49905 HTTP/1.1,benign,challenge,challenge:benign:3,benign,0.3189605,False,False,False
+POST /query?value=technical%20article%20on%20onerror%20coffee%2091142 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.013616145,False,False,False
+POST /item?value=SELECT name FROM products tutorial 67195 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.98723626,True,True,True
+POST /query?value=HTML tag example &lt;script&gt; 94266 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.9990289,True,True,True
+GET /query?q=union of sets alpha 10929 HTTP/1.1,benign,challenge,challenge:benign:3,sqli,0.78032386,False,True,False
+GET /item?q=technical article on onerror blue 3025 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.003305912,False,False,False
+GET /search?q=SELECT%20name%20FROM%20products%20tutorial%2023223 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.9948877,True,True,True
+POST /search?id=HTML%20tag%20example%20%26lt%3Bscript%26gt%3B%201274 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.99933445,True,True,True
+POST /query?q=union of sets coffee 76392 HTTP/1.1,benign,challenge,challenge:benign:3,benign,0.0063485503,False,False,False
+GET /item?q=technical%20article%20on%20onerror%20book%2080300 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.018109024,False,False,False
+GET /search?input=SELECT name FROM products tutorial 24333 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.9930666,True,True,True
+GET /form?value=HTML%20tag%20example%20%26lt%3Bscript%26gt%3B%2089873 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.99944544,True,True,True
+GET /form?id=union%20of%20sets%20music%2081989 HTTP/1.1,benign,challenge,challenge:benign:3,sqli,0.99761045,True,True,True
+GET /form?id=technical article on onerror phone 61510 HTTP/1.1,benign,challenge,challenge:benign:0,benign,0.011710882,False,False,False
+GET /query?id=SELECT%20name%20FROM%20products%20tutorial%2066540 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.9939088,True,True,True
+GET /search?id=HTML tag example &lt;script&gt; 71050 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.99918056,True,True,True
+GET /item?input=union of sets phone 24526 HTTP/1.1,benign,challenge,challenge:benign:3,benign,0.04971826,False,False,False
+POST /query?id=technical%20article%20on%20onerror%20music%2083279 HTTP/1.1,benign,challenge,challenge:benign:0,xss,0.57406807,False,True,False
+GET /search?value=SELECT name FROM products tutorial 55915 HTTP/1.1,benign,challenge,challenge:benign:1,xss,0.98740077,True,True,True
+GET /form?value=HTML%20tag%20example%20%26lt%3Bscript%26gt%3B%2036900 HTTP/1.1,benign,challenge,challenge:benign:2,xss,0.999434,True,True,True
+POST /search?input=union of sets book 96074 HTTP/1.1,benign,challenge,challenge:benign:3,sqli,0.9259051,False,True,False
+POST /query?q=1 AND SLEEP(2) /*1582*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.9995737,True,False,False
+POST /form?value=1 AND EXISTS(SELECT 1 FROM users WHERE id=74616) HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.99857277,True,False,False
+POST /form?value=1; WAITFOR DELAY '0:0:2' -- 97290 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9995093,True,False,False
+GET /search?value=1%20AND%20SLEEP%282%29%20%2F%2A71564%2A%2F HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.9995214,True,False,False
+POST /form?input=1 AND EXISTS(SELECT 1 FROM users WHERE id=53714) HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.9984445,True,False,False
+POST /form?q=1%3B%20WAITFOR%20DELAY%20%270%3A0%3A2%27%20--%2060878 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9996265,True,False,False
+GET /form?value=1 AND SLEEP(2) /*18285*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.9995606,True,False,False
+GET /item?id=1 AND EXISTS(SELECT 1 FROM users WHERE id=1838) HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.99890727,True,False,False
+POST /item?value=1%3B%20WAITFOR%20DELAY%20%270%3A0%3A2%27%20--%2028451 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9995044,True,False,False
+POST /item?value=1%20AND%20SLEEP%282%29%20%2F%2A44222%2A%2F HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.99947643,True,False,False
+POST /form?input=1%20AND%20EXISTS%28SELECT%201%20FROM%20users%20WHERE%20id%3D72011%29 HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.9985187,True,False,False
+GET /query?q=1; WAITFOR DELAY '0:0:2' -- 57040 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9996354,True,False,False
+POST /item?id=1 AND SLEEP(2) /*8779*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.9995212,True,False,False
+POST /form?q=1 AND EXISTS(SELECT 1 FROM users WHERE id=68005) HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.99874544,True,False,False
+POST /form?q=1%3B%20WAITFOR%20DELAY%20%270%3A0%3A2%27%20--%2040381 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.99962825,True,False,False
+POST /query?id=1 AND SLEEP(2) /*78537*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.99954545,True,False,False
+GET /search?input=1 AND EXISTS(SELECT 1 FROM users WHERE id=48449) HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.9984065,True,False,False
+POST /item?value=1%3B%20WAITFOR%20DELAY%20%270%3A0%3A2%27%20--%2048507 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9994671,True,False,False
+POST /query?id=1 AND SLEEP(2) /*83092*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.99950063,True,False,False
+GET /item?id=1 AND EXISTS(SELECT 1 FROM users WHERE id=16673) HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.99892694,True,False,False
+GET /query?q=1; WAITFOR DELAY '0:0:2' -- 64050 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9996272,True,False,False
+GET /form?input=1 AND SLEEP(2) /*50360*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.99950033,True,False,False
+POST /form?id=1%20AND%20EXISTS%28SELECT%201%20FROM%20users%20WHERE%20id%3D78993%29 HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.9986075,True,False,False
+GET /form?id=1%3B%20WAITFOR%20DELAY%20%270%3A0%3A2%27%20--%2036213 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9996259,True,False,False
+POST /form?id=1%20AND%20SLEEP%282%29%20%2F%2A29282%2A%2F HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.9996143,True,False,False
+POST /item?id=1 AND EXISTS(SELECT 1 FROM users WHERE id=35760) HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.9986591,True,False,False
+GET /item?value=1%3B%20WAITFOR%20DELAY%20%270%3A0%3A2%27%20--%2078336 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.99951655,True,False,False
+GET /query?value=1 AND SLEEP(2) /*32545*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.999506,True,False,False
+GET /form?q=1%20AND%20EXISTS%28SELECT%201%20FROM%20users%20WHERE%20id%3D26780%29 HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.9984293,True,False,False
+GET /form?input=1; WAITFOR DELAY '0:0:2' -- 48327 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.99944043,True,False,False
+POST /search?value=1 AND SLEEP(2) /*72789*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.99945045,True,False,False
+POST /query?id=1%20AND%20EXISTS%28SELECT%201%20FROM%20users%20WHERE%20id%3D59771%29 HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.9987038,True,False,False
+GET /search?q=1%3B%20WAITFOR%20DELAY%20%270%3A0%3A2%27%20--%2076881 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.99958974,True,False,False
+GET /query?input=1 AND SLEEP(2) /*42809*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.9994344,True,False,False
+POST /form?id=1 AND EXISTS(SELECT 1 FROM users WHERE id=72116) HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.99881953,True,False,False
+GET /query?value=1; WAITFOR DELAY '0:0:2' -- 42819 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9995307,True,False,False
+GET /item?input=1%20AND%20SLEEP%282%29%20%2F%2A74146%2A%2F HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.99958867,True,False,False
+GET /item?id=1%20AND%20EXISTS%28SELECT%201%20FROM%20users%20WHERE%20id%3D8382%29 HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.9987405,True,False,False
+POST /search?input=1; WAITFOR DELAY '0:0:2' -- 12050 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9994936,True,False,False
+GET /form?input=1 AND SLEEP(2) /*45042*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.99952507,True,False,False
+GET /item?input=1 AND EXISTS(SELECT 1 FROM users WHERE id=91050) HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.9983242,True,False,False
+POST /item?id=1; WAITFOR DELAY '0:0:2' -- 20858 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.99962276,True,False,False
+GET /search?id=1 AND SLEEP(2) /*7417*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.99952,True,False,False
+GET /item?id=1%20AND%20EXISTS%28SELECT%201%20FROM%20users%20WHERE%20id%3D62753%29 HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.9985925,True,False,False
+POST /search?value=1%3B%20WAITFOR%20DELAY%20%270%3A0%3A2%27%20--%2065622 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9994615,True,False,False
+POST /search?q=1 AND SLEEP(2) /*64527*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.9995143,True,False,False
+GET /form?q=1%20AND%20EXISTS%28SELECT%201%20FROM%20users%20WHERE%20id%3D26240%29 HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.99845964,True,False,False
+POST /item?input=1%3B%20WAITFOR%20DELAY%20%270%3A0%3A2%27%20--%2045804 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9995182,True,False,False
+POST /query?value=1 AND SLEEP(2) /*27899*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.9994761,True,False,False
+GET /query?value=1%20AND%20EXISTS%28SELECT%201%20FROM%20users%20WHERE%20id%3D66972%29 HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.99841225,True,False,False
+POST /search?value=1; WAITFOR DELAY '0:0:2' -- 25670 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9994578,True,False,False
+POST /item?id=1 AND SLEEP(2) /*59208*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.99954724,True,False,False
+GET /item?id=1 AND EXISTS(SELECT 1 FROM users WHERE id=14780) HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.99886745,True,False,False
+POST /item?value=1; WAITFOR DELAY '0:0:2' -- 99593 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9995141,True,False,False
+GET /query?id=1%20AND%20SLEEP%282%29%20%2F%2A47318%2A%2F HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.9996084,True,False,False
+GET /item?value=1%20AND%20EXISTS%28SELECT%201%20FROM%20users%20WHERE%20id%3D67000%29 HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.9982707,True,False,False
+POST /query?input=1; WAITFOR DELAY '0:0:2' -- 27057 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9995124,True,False,False
+POST /form?value=1 AND SLEEP(2) /*51226*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.99947274,True,False,False
+GET /search?q=1%20AND%20EXISTS%28SELECT%201%20FROM%20users%20WHERE%20id%3D87438%29 HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.99842954,True,False,False
+POST /search?value=1; WAITFOR DELAY '0:0:2' -- 81179 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.99951005,True,False,False
+GET /search?q=1 AND SLEEP(2) /*58344*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.99954844,True,False,False
+POST /query?q=1 AND EXISTS(SELECT 1 FROM users WHERE id=48251) HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.99875486,True,False,False
+POST /search?q=1; WAITFOR DELAY '0:0:2' -- 36707 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9995438,True,False,False
+GET /search?q=1%20AND%20SLEEP%282%29%20%2F%2A39600%2A%2F HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.9995832,True,False,False
+GET /item?input=1%20AND%20EXISTS%28SELECT%201%20FROM%20users%20WHERE%20id%3D62466%29 HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.99832565,True,False,False
+POST /search?input=1; WAITFOR DELAY '0:0:2' -- 76002 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9994342,True,False,False
+GET /search?input=1 AND SLEEP(2) /*8304*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.9992878,True,False,False
+POST /form?input=1%20AND%20EXISTS%28SELECT%201%20FROM%20users%20WHERE%20id%3D88879%29 HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.99848294,True,False,False
+GET /search?value=1; WAITFOR DELAY '0:0:2' -- 54067 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.99942935,True,False,False
+GET /query?q=1 AND SLEEP(2) /*93058*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.9995329,True,False,False
+GET /item?input=1 AND EXISTS(SELECT 1 FROM users WHERE id=87991) HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.9985295,True,False,False
+POST /form?id=1%3B%20WAITFOR%20DELAY%20%270%3A0%3A2%27%20--%20265 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9995888,True,False,False
+POST /search?value=1%20AND%20SLEEP%282%29%20%2F%2A93801%2A%2F HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.9994406,True,False,False
+POST /query?id=1 AND EXISTS(SELECT 1 FROM users WHERE id=59812) HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.9987381,True,False,False
+POST /item?input=1; WAITFOR DELAY '0:0:2' -- 42046 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9995585,True,False,False
+POST /item?input=1 AND SLEEP(2) /*48783*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.99956113,True,False,False
+POST /search?value=1 AND EXISTS(SELECT 1 FROM users WHERE id=88576) HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.99835855,True,False,False
+POST /form?id=1; WAITFOR DELAY '0:0:2' -- 18050 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9996306,True,False,False
+GET /query?id=1 AND SLEEP(2) /*5614*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.9995477,True,False,False
+GET /form?q=1 AND EXISTS(SELECT 1 FROM users WHERE id=75205) HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.9984747,True,False,False
+GET /search?q=1; WAITFOR DELAY '0:0:2' -- 54926 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9995214,True,False,False
+GET /item?value=1 AND SLEEP(2) /*33396*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.9994568,True,False,False
+POST /form?input=1%20AND%20EXISTS%28SELECT%201%20FROM%20users%20WHERE%20id%3D64127%29 HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.9984215,True,False,False
+POST /search?id=1; WAITFOR DELAY '0:0:2' -- 28724 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.99952084,True,False,False
+GET /search?q=1 AND SLEEP(2) /*83957*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.99953777,True,False,False
+POST /item?input=1 AND EXISTS(SELECT 1 FROM users WHERE id=64917) HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.9986983,True,False,False
+GET /item?q=1; WAITFOR DELAY '0:0:2' -- 39706 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.99958456,True,False,False
+GET /item?q=1%20AND%20SLEEP%282%29%20%2F%2A2135%2A%2F HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.99959826,True,False,False
+GET /form?value=1 AND EXISTS(SELECT 1 FROM users WHERE id=8794) HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.9981281,True,False,False
+POST /query?input=1%3B%20WAITFOR%20DELAY%20%270%3A0%3A2%27%20--%2086725 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9994255,True,False,False
+POST /search?input=1%20AND%20SLEEP%282%29%20%2F%2A49150%2A%2F HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.99946016,True,False,False
+GET /query?input=1%20AND%20EXISTS%28SELECT%201%20FROM%20users%20WHERE%20id%3D4141%29 HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.9985741,True,False,False
+POST /query?input=1; WAITFOR DELAY '0:0:2' -- 50309 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.99949586,True,False,False
+POST /search?input=1%20AND%20SLEEP%282%29%20%2F%2A3591%2A%2F HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.9994785,True,False,False
+GET /search?input=1%20AND%20EXISTS%28SELECT%201%20FROM%20users%20WHERE%20id%3D33060%29 HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.998139,True,False,False
+POST /search?value=1%3B%20WAITFOR%20DELAY%20%270%3A0%3A2%27%20--%2049797 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.9994441,True,False,False
+POST /item?input=1 AND SLEEP(2) /*40617*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.99939936,True,False,False
+GET /form?q=1 AND EXISTS(SELECT 1 FROM users WHERE id=12455) HTTP/1.1,sqli,challenge,challenge:sqli:1,sqli,0.99857295,True,False,False
+POST /search?value=1; WAITFOR DELAY '0:0:2' -- 65817 HTTP/1.1,sqli,challenge,challenge:sqli:2,sqli,0.99943525,True,False,False
+POST /item?input=1 AND SLEEP(2) /*76773*/ HTTP/1.1,sqli,challenge,challenge:sqli:0,sqli,0.9995374,True,False,False
+POST /form?q=%3Ca%20href%3D%22javascript%3Aconfirm%2838465%29%22%3Eopen%3C%2Fa%3E HTTP/1.1,xss,challenge,challenge:xss:0,xss,0.9986854,True,False,False
+GET /item?input=<details open ontoggle=confirm(90031)> HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.9982448,True,False,False
+GET /form?q=%3Ciframe%20srcdoc%3D%22%3Cscript%3Econfirm%2863743%29%3C%2Fscript%3E%22%3E%3C%2Fiframe%3E HTTP/1.1,xss,challenge,challenge:xss:2,xss,0.9986762,True,False,False
+POST /item?input=%3Ca%20href%3D%22javascript%3Aconfirm%2839630%29%22%3Eopen%3C%2Fa%3E HTTP/1.1,xss,challenge,challenge:xss:0,xss,0.9982045,True,False,False
+GET /item?q=%3Cdetails%20open%20ontoggle%3Dconfirm%2891862%29%3E HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.9984614,True,False,False
+"POST /search?value=<iframe srcdoc=""<script>confirm(57432)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.9988058,True,False,False
+POST /search?value=%3Ca%20href%3D%22javascript%3Aconfirm%2883218%29%22%3Eopen%3C%2Fa%3E HTTP/1.1,xss,challenge,challenge:xss:0,xss,0.99881923,True,False,False
+GET /search?q=<details open ontoggle=confirm(57195)> HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.9991525,True,False,False
+"POST /item?id=<iframe srcdoc=""<script>confirm(34452)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.9989016,True,False,False
+GET /item?input=%3Ca%20href%3D%22javascript%3Aconfirm%2815871%29%22%3Eopen%3C%2Fa%3E HTTP/1.1,xss,challenge,challenge:xss:0,xss,0.99885756,True,False,False
+POST /form?q=<details open ontoggle=confirm(86499)> HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.9992984,True,False,False
+"GET /search?id=<iframe srcdoc=""<script>confirm(86027)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.99912876,True,False,False
+POST /search?value=%3Ca%20href%3D%22javascript%3Aconfirm%2826545%29%22%3Eopen%3C%2Fa%3E HTTP/1.1,xss,challenge,challenge:xss:0,xss,0.99860907,True,False,False
+GET /query?q=<details open ontoggle=confirm(7873)> HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.9979417,True,False,False
+GET /form?id=%3Ciframe%20srcdoc%3D%22%3Cscript%3Econfirm%2839769%29%3C%2Fscript%3E%22%3E%3C%2Fiframe%3E HTTP/1.1,xss,challenge,challenge:xss:2,xss,0.99857175,True,False,False
+"POST /item?q=<a href=""javascript:confirm(24738)"">open</a> HTTP/1.1",xss,challenge,challenge:xss:0,xss,0.99854815,True,False,False
+GET /item?id=<details open ontoggle=confirm(22609)> HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.99879426,True,False,False
+"GET /form?q=<iframe srcdoc=""<script>confirm(66839)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.9988597,True,False,False
+POST /query?id=%3Ca%20href%3D%22javascript%3Aconfirm%2874217%29%22%3Eopen%3C%2Fa%3E HTTP/1.1,xss,challenge,challenge:xss:0,xss,0.9986378,True,False,False
+POST /search?value=%3Cdetails%20open%20ontoggle%3Dconfirm%2834412%29%3E HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.99818,True,False,False
+POST /form?input=%3Ciframe%20srcdoc%3D%22%3Cscript%3Econfirm%2851734%29%3C%2Fscript%3E%22%3E%3C%2Fiframe%3E HTTP/1.1,xss,challenge,challenge:xss:2,xss,0.99894845,True,False,False
+"GET /form?input=<a href=""javascript:confirm(79496)"">open</a> HTTP/1.1",xss,challenge,challenge:xss:0,xss,0.9989527,True,False,False
+POST /form?q=%3Cdetails%20open%20ontoggle%3Dconfirm%2884687%29%3E HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.9992951,True,False,False
+GET /search?id=%3Ciframe%20srcdoc%3D%22%3Cscript%3Econfirm%2856730%29%3C%2Fscript%3E%22%3E%3C%2Fiframe%3E HTTP/1.1,xss,challenge,challenge:xss:2,xss,0.9989369,True,False,False
+"POST /query?input=<a href=""javascript:confirm(84079)"">open</a> HTTP/1.1",xss,challenge,challenge:xss:0,xss,0.99871874,True,False,False
+POST /query?input=%3Cdetails%20open%20ontoggle%3Dconfirm%2885228%29%3E HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.999348,True,False,False
+"GET /form?value=<iframe srcdoc=""<script>confirm(67045)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.9989358,True,False,False
+"POST /search?value=<a href=""javascript:confirm(11935)"">open</a> HTTP/1.1",xss,challenge,challenge:xss:0,xss,0.99897945,True,False,False
+POST /item?value=<details open ontoggle=confirm(82470)> HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.9953044,True,False,False
+"POST /query?id=<iframe srcdoc=""<script>confirm(42498)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.9991535,True,False,False
+"POST /query?input=<a href=""javascript:confirm(43918)"">open</a> HTTP/1.1",xss,challenge,challenge:xss:0,xss,0.99877185,True,False,False
+GET /query?id=%3Cdetails%20open%20ontoggle%3Dconfirm%2887786%29%3E HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.99926215,True,False,False
+"POST /item?input=<iframe srcdoc=""<script>confirm(90070)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.99911386,True,False,False
+POST /item?id=%3Ca%20href%3D%22javascript%3Aconfirm%2876261%29%22%3Eopen%3C%2Fa%3E HTTP/1.1,xss,challenge,challenge:xss:0,xss,0.9989271,True,False,False
+GET /form?value=<details open ontoggle=confirm(78408)> HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.9979891,True,False,False
+"POST /form?value=<iframe srcdoc=""<script>confirm(32205)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.99909,True,False,False
+"POST /search?input=<a href=""javascript:confirm(19191)"">open</a> HTTP/1.1",xss,challenge,challenge:xss:0,xss,0.9992497,True,False,False
+GET /query?input=%3Cdetails%20open%20ontoggle%3Dconfirm%2872189%29%3E HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.99865884,True,False,False
+"POST /form?id=<iframe srcdoc=""<script>confirm(59616)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.99883384,True,False,False
+"POST /search?input=<a href=""javascript:confirm(34835)"">open</a> HTTP/1.1",xss,challenge,challenge:xss:0,xss,0.9992239,True,False,False
+GET /item?q=%3Cdetails%20open%20ontoggle%3Dconfirm%2857311%29%3E HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.99840164,True,False,False
+GET /query?q=%3Ciframe%20srcdoc%3D%22%3Cscript%3Econfirm%2847370%29%3C%2Fscript%3E%22%3E%3C%2Fiframe%3E HTTP/1.1,xss,challenge,challenge:xss:2,xss,0.9987358,True,False,False
+GET /form?id=%3Ca%20href%3D%22javascript%3Aconfirm%2871901%29%22%3Eopen%3C%2Fa%3E HTTP/1.1,xss,challenge,challenge:xss:0,xss,0.9984422,True,False,False
+GET /search?value=<details open ontoggle=confirm(5244)> HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.992578,True,False,False
+POST /item?id=%3Ciframe%20srcdoc%3D%22%3Cscript%3Econfirm%2881846%29%3C%2Fscript%3E%22%3E%3C%2Fiframe%3E HTTP/1.1,xss,challenge,challenge:xss:2,xss,0.9987166,True,False,False
+"POST /query?id=<a href=""javascript:confirm(28903)"">open</a> HTTP/1.1",xss,challenge,challenge:xss:0,xss,0.9986861,True,False,False
+POST /item?id=<details open ontoggle=confirm(19894)> HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.9991582,True,False,False
+"GET /item?q=<iframe srcdoc=""<script>confirm(50246)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.99883056,True,False,False
+"POST /form?q=<a href=""javascript:confirm(74883)"">open</a> HTTP/1.1",xss,challenge,challenge:xss:0,xss,0.9987244,True,False,False
+GET /item?input=<details open ontoggle=confirm(12551)> HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.99748355,True,False,False
+"GET /query?q=<iframe srcdoc=""<script>confirm(79912)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.998928,True,False,False
+"POST /form?input=<a href=""javascript:confirm(425)"">open</a> HTTP/1.1",xss,challenge,challenge:xss:0,xss,0.9987747,True,False,False
+GET /form?input=%3Cdetails%20open%20ontoggle%3Dconfirm%2827979%29%3E HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.9986793,True,False,False
+"POST /form?q=<iframe srcdoc=""<script>confirm(58012)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.9987342,True,False,False
+POST /form?value=%3Ca%20href%3D%22javascript%3Aconfirm%2870954%29%22%3Eopen%3C%2Fa%3E HTTP/1.1,xss,challenge,challenge:xss:0,xss,0.99828696,True,False,False
+POST /form?id=<details open ontoggle=confirm(42225)> HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.9989996,True,False,False
+"POST /item?input=<iframe srcdoc=""<script>confirm(48894)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.99920076,True,False,False
+POST /query?id=%3Ca%20href%3D%22javascript%3Aconfirm%2827159%29%22%3Eopen%3C%2Fa%3E HTTP/1.1,xss,challenge,challenge:xss:0,xss,0.99868554,True,False,False
+POST /form?q=<details open ontoggle=confirm(93717)> HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.9991561,True,False,False
+GET /form?q=%3Ciframe%20srcdoc%3D%22%3Cscript%3Econfirm%2889989%29%3C%2Fscript%3E%22%3E%3C%2Fiframe%3E HTTP/1.1,xss,challenge,challenge:xss:2,xss,0.99870294,True,False,False
+POST /search?input=%3Ca%20href%3D%22javascript%3Aconfirm%2850979%29%22%3Eopen%3C%2Fa%3E HTTP/1.1,xss,challenge,challenge:xss:0,xss,0.9989753,True,False,False
+POST /search?input=<details open ontoggle=confirm(57195)> HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.99861497,True,False,False
+POST /query?input=%3Ciframe%20srcdoc%3D%22%3Cscript%3Econfirm%2833423%29%3C%2Fscript%3E%22%3E%3C%2Fiframe%3E HTTP/1.1,xss,challenge,challenge:xss:2,xss,0.9987754,True,False,False
+GET /search?input=%3Ca%20href%3D%22javascript%3Aconfirm%2820732%29%22%3Eopen%3C%2Fa%3E HTTP/1.1,xss,challenge,challenge:xss:0,xss,0.99875736,True,False,False
+GET /item?q=<details open ontoggle=confirm(47795)> HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.99821347,True,False,False
+"POST /search?value=<iframe srcdoc=""<script>confirm(80678)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.99877995,True,False,False
+POST /query?id=%3Ca%20href%3D%22javascript%3Aconfirm%2859398%29%22%3Eopen%3C%2Fa%3E HTTP/1.1,xss,challenge,challenge:xss:0,xss,0.99871004,True,False,False
+GET /item?q=%3Cdetails%20open%20ontoggle%3Dconfirm%2830037%29%3E HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.9988124,True,False,False
+"GET /query?input=<iframe srcdoc=""<script>confirm(81398)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.99923855,True,False,False
+GET /search?q=%3Ca%20href%3D%22javascript%3Aconfirm%2855488%29%22%3Eopen%3C%2Fa%3E HTTP/1.1,xss,challenge,challenge:xss:0,xss,0.9991932,True,False,False
+GET /search?input=<details open ontoggle=confirm(13315)> HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.9994097,True,False,False
+"GET /item?id=<iframe srcdoc=""<script>confirm(72550)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.9986433,True,False,False
+"POST /search?q=<a href=""javascript:confirm(1156)"">open</a> HTTP/1.1",xss,challenge,challenge:xss:0,xss,0.99888176,True,False,False
+POST /item?id=%3Cdetails%20open%20ontoggle%3Dconfirm%2851626%29%3E HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.99888855,True,False,False
+"POST /form?id=<iframe srcdoc=""<script>confirm(31719)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.9988844,True,False,False
+"GET /item?q=<a href=""javascript:confirm(59640)"">open</a> HTTP/1.1",xss,challenge,challenge:xss:0,xss,0.99935484,True,False,False
+POST /form?input=%3Cdetails%20open%20ontoggle%3Dconfirm%288801%29%3E HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.9990446,True,False,False
+"POST /form?value=<iframe srcdoc=""<script>confirm(88814)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.99915254,True,False,False
+"POST /query?input=<a href=""javascript:confirm(79376)"">open</a> HTTP/1.1",xss,challenge,challenge:xss:0,xss,0.9985143,True,False,False
+GET /search?id=<details open ontoggle=confirm(21885)> HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.99745685,True,False,False
+"POST /search?input=<iframe srcdoc=""<script>confirm(9632)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.9988823,True,False,False
+GET /query?input=%3Ca%20href%3D%22javascript%3Aconfirm%2850154%29%22%3Eopen%3C%2Fa%3E HTTP/1.1,xss,challenge,challenge:xss:0,xss,0.99860793,True,False,False
+GET /form?id=%3Cdetails%20open%20ontoggle%3Dconfirm%2826054%29%3E HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.99918634,True,False,False
+"GET /search?id=<iframe srcdoc=""<script>confirm(85085)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.9991252,True,False,False
+"POST /form?value=<a href=""javascript:confirm(57554)"">open</a> HTTP/1.1",xss,challenge,challenge:xss:0,xss,0.9980772,True,False,False
+GET /item?id=%3Cdetails%20open%20ontoggle%3Dconfirm%2826839%29%3E HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.9991953,True,False,False
+GET /query?input=%3Ciframe%20srcdoc%3D%22%3Cscript%3Econfirm%2883899%29%3C%2Fscript%3E%22%3E%3C%2Fiframe%3E HTTP/1.1,xss,challenge,challenge:xss:2,xss,0.9990418,True,False,False
+"GET /query?value=<a href=""javascript:confirm(50676)"">open</a> HTTP/1.1",xss,challenge,challenge:xss:0,xss,0.99748313,True,False,False
+POST /search?value=<details open ontoggle=confirm(67192)> HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.9946154,True,False,False
+GET /search?q=%3Ciframe%20srcdoc%3D%22%3Cscript%3Econfirm%2843454%29%3C%2Fscript%3E%22%3E%3C%2Fiframe%3E HTTP/1.1,xss,challenge,challenge:xss:2,xss,0.99882275,True,False,False
+"POST /search?q=<a href=""javascript:confirm(19138)"">open</a> HTTP/1.1",xss,challenge,challenge:xss:0,xss,0.9989983,True,False,False
+POST /search?input=<details open ontoggle=confirm(66792)> HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.9976625,True,False,False
+"POST /query?value=<iframe srcdoc=""<script>confirm(52886)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.9988154,True,False,False
+GET /form?input=%3Ca%20href%3D%22javascript%3Aconfirm%2837355%29%22%3Eopen%3C%2Fa%3E HTTP/1.1,xss,challenge,challenge:xss:0,xss,0.9988086,True,False,False
+GET /item?input=%3Cdetails%20open%20ontoggle%3Dconfirm%2856817%29%3E HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.99849,True,False,False
+"POST /item?id=<iframe srcdoc=""<script>confirm(43283)</script>""></iframe> HTTP/1.1",xss,challenge,challenge:xss:2,xss,0.9989112,True,False,False
+POST /query?input=%3Ca%20href%3D%22javascript%3Aconfirm%2899901%29%22%3Eopen%3C%2Fa%3E HTTP/1.1,xss,challenge,challenge:xss:0,xss,0.9987806,True,False,False
+GET /item?id=%3Cdetails%20open%20ontoggle%3Dconfirm%2828876%29%3E HTTP/1.1,xss,challenge,challenge:xss:1,xss,0.99918026,True,False,False
+GET /form?value=%3Ciframe%20srcdoc%3D%22%3Cscript%3Econfirm%2854847%29%3C%2Fscript%3E%22%3E%3C%2Fiframe%3E HTTP/1.1,xss,challenge,challenge:xss:2,xss,0.9988073,True,False,False
+"GET /search?value=<a href=""javascript:confirm(27615)"">open</a> HTTP/1.1",xss,challenge,challenge:xss:0,xss,0.99854267,True,False,False

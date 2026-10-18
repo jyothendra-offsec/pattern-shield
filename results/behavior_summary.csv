@@ -1,0 +1,2 @@
+client,minute,requests,alerts,distinct_paths,review_burst
+lab-client,2026-01-01 10:00:00+00:00,25,5,1,True

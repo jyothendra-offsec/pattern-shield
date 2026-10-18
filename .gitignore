@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store
+pattern_shield_results/
+pattern_shield_results.zip
