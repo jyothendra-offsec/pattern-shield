@@ -175,3 +175,6 @@ Pattern Shield supports candidate-alert triage. It does not replace authorized t
 
 Implementation and documentation were developed with AI assistance. The included measurements were produced by executing the notebook locally; no production effectiveness is claimed.
 
+## Review workflow
+
+For a portfolio review, start with the held-out results and model card. Compare the transformer with the baseline and review the examples each model misclassified before choosing an architecture.
