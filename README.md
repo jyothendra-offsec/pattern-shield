@@ -178,3 +178,7 @@ Implementation and documentation were developed with AI assistance. The included
 ## Review workflow
 
 For a portfolio review, start with the held-out results and model card. Compare the transformer with the baseline and review the examples each model misclassified before choosing an architecture.
+
+## Usage terms
+
+Original material owned by 0xjyothendra requires written permission for modification or redistribution. Third-party content, assets, and earlier licensed releases retain their applicable terms. See [LICENSE](LICENSE).
